@@ -1,3 +1,23 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
 body {
+    background-color: black;
     font-family: courier;
+    color: white;
+}
+
+#logo {
+    float: left;
+}
+
+nav {
+    float: left;
+}
+
+h1 {
+    clear: left;
 }
