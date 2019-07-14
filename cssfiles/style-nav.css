@@ -1,0 +1,67 @@
+/*-- Navigation bar --*/
+header {
+    width: 100%;
+    display: inline-block;
+}
+
+.logo {
+    float: left;
+    width: 20%;
+}
+
+header nav {
+    width: 80%;
+    float: left;
+}
+
+header nav a {
+    width: 20%;
+    color: white;
+    float: left;
+    text-align: center;
+    /*vertical-align: inherit;*/
+}
+
+nav .welcome:hover {
+    color: black;
+    background-color: red;
+}
+nav .about:hover {
+    color: black;
+    background-color: blue;
+}
+nav .artwork:hover {
+    color: black;
+    background-color: yellow;
+}
+nav .events:hover {
+    color: black;
+    background-color: green;
+}
+
+nav .welcome.active {
+    color: black;
+    background-color: red;
+}
+nav .about.active {
+    color: black;
+    background-color: blue;
+}
+nav .artwork.active {
+    color: black;
+    background-color: yellow;
+}
+nav .events.active {
+    color: black;
+    background-color: green;
+}
+
+/*-- Under the navigation bar --*/
+h1 {
+    clear: left;
+}
+
+img {
+    clear: left;
+    display:block;
+}
