@@ -16,10 +16,8 @@ header nav {
 
 header nav a {
     width: 20%;
-    color: white;
     float: left;
     text-align: center;
-    /*vertical-align: inherit;*/
 }
 
 nav .welcome:hover {
