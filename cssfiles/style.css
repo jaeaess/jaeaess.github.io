@@ -29,10 +29,30 @@ body {
     font-family: courier;
 }
 
+img {
+	max-width: 100%;
+}
+
 /*-- Footer --*/
 footer {
     margin: 10px;
     position: absolute;
     top: 100%;
     left: 50%;
+}
+
+/* Each item in our grid will contain numbers */
+.item {
+  /* We center the contents of these items. You can also do this with flexbox too! */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgba(0, 0, 0, 0.03);
+  border-radius: 3px;
+  font-size: 35px;
+  background-color: var(--yellow); /* best colour */
+}
+
+.item p {
+  margin: 0 0 5px 0;
 }
