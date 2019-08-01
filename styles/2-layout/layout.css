@@ -1,9 +1,10 @@
 .wrapper {
     display: grid;
-    grid-gap: 20px;
     grid-template-rows: auto 1fr auto;
     height: 100vh;
 }
+
+/* Header */
 
 header {
     display: grid;
@@ -16,6 +17,17 @@ header {
 nav {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+/* Middle */
+
+.middle {
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+}
+
+.middle>* {
+    grid-column: 2 / -2;
 }
 
 /* Footer */

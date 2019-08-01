@@ -11,31 +11,27 @@
   <link rel="stylesheet" href="cssfiles/style-nav.css">
 </head>
 
+<script src="scripts/includeHTML.js"></script>
+
 <!-- BODY - The Page, displayed -->
 <body>
   <div class="wrapper">
-    <header>
-      <a href="./index.html" title="Welcome" class="logo"><img src="img/logo_jaeaess_glitch.png" alt="Logo of the VJ Jääß (Jess de Jesus)" style="width:42px;height:42px"></a>
-      <nav>
-        <a href="./index.html" title="Welcome" class="welcome active">Welcome</a>
-        <a href="./about.html" title="About" class="about">About</a>
-        <a href="./artwork.html" title="Art Work" class="artwork">Art Work</a>
-        <a href="./events.html" title="Events" class="events">Events</a>
-       </nav>
-    </header>
+
+    <!-- Header -->
+    <div w3-include-html="htmls/header.html"></div>
+
+    <!-- Middle -->
     <section class="middle">
       <h1>Jääß - Live Visual Artist</h1>
-      <!-- Intro -->
-      <section>
         <h2>Bio</h2>
         <p>Jääß (or Jaeaess, or Jess de Jesus) is a live visual artist coming from France and currently based in Berlin. She is also a researcher in philosophy of technology at the <a href="https://www.tu-berlin.de/menue/home/parameter/en/" target="_blank">Technical University of Berlin</a>.</p>
-      </section>
     </section>
-    <footer>
-      <div class="footer-links">
-       <a href="https://www.instagram.com/jaeaess/" target="_blank">Instagram</a>
-       <p>&copy; 2019 Jääß</p>
-      </div>
-    </footer>
+
+    <!-- Footer -->
+    <div w3-include-html="htmls/footer.html"></div>
+
+    <script>
+      includeHTML();
+     </script>
   </body>
 </html>
