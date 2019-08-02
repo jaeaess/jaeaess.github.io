@@ -1,0 +1,48 @@
+/*** CSS Variables ***/
+:root {
+    --lightpink: #f2dce8;
+    --black: #090909;
+    --yellow: #e0f42c;
+    --neonpink: #f948a7;
+    --purple: #541388;
+    --turquoise: #45c6b9;
+    --gold: #cba328;
+    --green: #d6f49d;
+    --neongree: #51cb20;
+    --blue: #06aed5;
+    --red: #ba2d0b;
+    --lightred: #ff5964;
+    --lightorange: #f46036;
+    --orange: #fe7f2d;
+    --almond: #ffe8d1;
+}
+
+/* Styling the header */
+header {
+    background: var(--black);
+}
+
+nav {
+    background: var(--turquoise);
+}
+
+nav a:hover {
+    background: var(--yellow);
+    justify-self: stretch;
+}
+
+.welcome::before {
+    content: "👋> ";
+}
+
+.about::before {
+    content: "🙈> ";
+}
+
+.artwork::before {
+    content: "💣> ";
+}
+
+.events::before {
+    content: "📅> ";
+}
