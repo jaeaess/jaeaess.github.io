@@ -17,6 +17,14 @@
     --almond: #ffe8d1;
 }
 
+@font-face {
+    font-family: 'minecraftmedium';
+    src: url('https://github.com/jaeaess/jaeaess.github.io/blob/master/fonts/minecraft/webfontkit-20190803-172335/minecraft-webfont.woff2') format('woff2'),
+         url('https://github.com/jaeaess/jaeaess.github.io/blob/master/fonts/minecraft/webfontkit-20190803-172335/minecraft-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Styling the header */
 
 header {
