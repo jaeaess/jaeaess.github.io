@@ -57,3 +57,10 @@ footer {
 .footer-impressum {
     grid-area: impressum;
 }
+
+/***********************/
+/*       Media Queries         */
+/***********************/
+/* @media (width <= 414px) {
+
+} */
