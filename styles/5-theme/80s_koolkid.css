@@ -3,13 +3,13 @@
     --lightpink: #f2dce8;
     --black: #090909;
     --yellow: #e0f42c;
-    --neonpink: #f948a7;
+    --neonpink: #ff2baa;
     --purple: #541388;
     --turquoise: #45c6b9;
     --gold: #cba328;
     --green: #d6f49d;
     --neongree: #51cb20;
-    --blue: #06aed5;
+    --blue: #25d0ea;
     --red: #ba2d0b;
     --lightred: #ff5964;
     --lightorange: #f46036;
@@ -18,6 +18,7 @@
 }
 
 /* Styling the header */
+
 header {
     background: var(--black);
 }
@@ -27,8 +28,9 @@ nav {
 }
 
 nav a:hover {
-    background: var(--yellow);
     justify-self: stretch;
+    background: var(--yellow);
+    color: var(--neonpink);
 }
 
 .welcome::before {
@@ -45,4 +47,15 @@ nav a:hover {
 
 .events::before {
     content: "📅> ";
+}
+
+/* Styling the footer */
+
+footer {
+    background: var(--purple);
+    color: var(--neonpink);
+}
+
+.footer-impressum::before {
+    content: "--> ";
 }
