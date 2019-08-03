@@ -23,12 +23,15 @@ header {
     background: var(--black);
 }
 
+.logo {
+    background: var(--black);
+}
+
 nav {
     background: var(--turquoise);
 }
 
 nav a:hover {
-    justify-self: stretch;
     background: var(--yellow);
     color: var(--neonpink);
 }
@@ -56,6 +59,18 @@ footer {
     color: var(--neonpink);
 }
 
+.footer-socialmedia-links::before {
+    content: "💩 ";
+}
+
+.footer-copyright::before {
+    content: "🎯 ";
+}
+
+.footer-impressum {
+    background: var(--yellow);
+}
+
 .footer-impressum::before {
-    content: "--> ";
+    content: "💾--> ";
 }

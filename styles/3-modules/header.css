@@ -11,5 +11,8 @@ nav a {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    color: var(--neonpink);
+}
+
+nav a:hover {
+    justify-self: stretch;
 }
