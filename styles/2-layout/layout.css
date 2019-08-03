@@ -7,8 +7,8 @@
     grid-template-rows: 1fr auto;
     width: 100vw;
     /* Fixing a size for the header, so that its position can be fixed */
-    margin-top: 3rem;
-    height: calc(100vh - 3rem);
+    margin-top: 10vh; /*  margin-top: 3rem; */
+    height: calc(100vh - 10vh);
 }
 
 /* Header */
@@ -18,7 +18,7 @@ header {
     grid-template-columns: auto 1fr;
     position: fixed;
     top: 0;
-    height: 3rem;
+    height: 10vh;
     width: 100%;
 }
 
