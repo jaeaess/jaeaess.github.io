@@ -1,0 +1,28 @@
+.about-content {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 3fr 7fr 3fr;
+    justify-items: center;
+}
+
+.about-content>* {
+    grid-column: 2 / -2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 0 30px 0;
+}
+
+.myportray {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15rem;
+    height: 100%;
+}
+
+.myportray img {
+    display: block;
+    width: 100%;
+}
