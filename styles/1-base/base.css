@@ -1,6 +1,6 @@
 html {
-    /* border-box box model allows us to add padding and border to our elements without increasing their size */
-    box-sizing: border-box;
+  /* border-box box model allows us to add padding and border to our elements without increasing their size */
+  box-sizing: border-box;
 }
 
 /*
@@ -14,12 +14,12 @@ html {
 }
 
 * {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
-    font-family: advanced_pixel_lcd-7regular, courier;
+  font-family: courier;
 }
 
 h1,
@@ -30,11 +30,5 @@ h5,
 h6 {
   font-weight: normal;
   margin: 0;
-  padding: 0 0 30px 0;
   font-size: 1.5em;
-}
-
-figcaption {
-    font-family: Cambria, Cochin, Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
 }

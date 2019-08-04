@@ -58,10 +58,13 @@
     font-style: normal;
 }
 
+/******************/
 /* Styling the header */
+/******************/
 
 header {
     background: var(--black);
+    font-family: fippsregular, courier;
 }
 
 .logo {
@@ -93,25 +96,52 @@ nav a:hover {
     content: "📅> ";
 }
 
+/************************************/
+/* Styling the content of the middle section */
+/************************************/
+
+h1 {
+    font-family: fippsregular, courier;
+}
+
+h2 {
+    font-family: minecraftiaregular, courier;
+}
+
+  figcaption {
+    font-family: minecraftmedium, courier;
+    font-size: 1em;
+    font-style: italic;
+    padding: 5px 0 0 0;
+}
+
+/*****************/
 /* Styling the footer */
+/*****************/
 
 footer {
     background: var(--purple);
-    color: var(--neonpink);
+    font-family: fippsregular, courier;
 }
 
 .footer-socialmedia-links::before {
     content: "💩 ";
 }
+.footer-socialmedia-links a {
+    color: var(--green);
+}
 
 .footer-copyright::before {
     content: "🎯 ";
 }
-
-.footer-impressum {
-    background: var(--yellow);
+.footer-copyright {
+    color: var(--green);
 }
 
 .footer-impressum::before {
     content: "💾--> ";
+}
+.footer-impressum {
+    color: var(--neonpink);
+    background: var(--yellow);
 }
