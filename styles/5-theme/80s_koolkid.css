@@ -17,13 +17,21 @@
     --almond: #ffe8d1;
 }
 
+/*** Custom Fonts ***/
 @font-face {
     font-family: 'minecraftmedium';
     src: url('../../fonts/minecraft/webfontkit-20190803-172335/minecraft-webfont.woff2') format('woff2'),
          url('../../fonts/minecraft/webfontkit-20190803-172335/minecraft-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
 
+@font-face {
+    font-family: 'minecraftiaregular';
+    src: url('../../fonts/minecraftia/webfontkit-20190804-080118/minecraftia-regular-webfont.woff2') format('woff2'),
+         url('../../fonts/minecraftia/webfontkit-20190804-080118/minecraftia-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* Styling the header */
