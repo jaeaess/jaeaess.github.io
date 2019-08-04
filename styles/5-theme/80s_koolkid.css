@@ -42,6 +42,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'edit_undo_line_brkregular';
+    src: url('../../fonts/edit_undo_line/webfontkit-20190804-082904/edunline-webfont.woff2') format('woff2'),
+         url('../../fonts/edit_undo_line/webfontkit-20190804-082904/edunline-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Styling the header */
 
 header {
