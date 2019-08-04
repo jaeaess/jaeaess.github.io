@@ -50,6 +50,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'advanced_pixel_lcd-7regular';
+    src: url('../../fonts/advanced_pixel_lcd/webfontkit-20190804-084134/advanced_pixel_lcd-7-webfont.woff2') format('woff2'),
+         url('../../fonts/advanced_pixel_lcd/webfontkit-20190804-084134/advanced_pixel_lcd-7-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Styling the header */
 
 header {
