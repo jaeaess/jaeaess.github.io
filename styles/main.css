@@ -1,6 +1,7 @@
 @import '1-base/base.css';
 @import '2-layout/main-layout.css';
 @import '2-layout/about-layout.css';
+@import '2-layout/events-layout.css';
 @import '3-modules/header.css';
 @import '3-modules/footer.css';
 @import '5-theme/80s_koolkid.css';
