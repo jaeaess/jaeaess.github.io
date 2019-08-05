@@ -1,3 +1,7 @@
+footer a {
+    text-decoration: none;
+}
+
 .footer-socialmedia {
     display: flex;
     flex-direction: column;
@@ -8,10 +12,6 @@
 
 .footer-socialmedia-links {
     padding: 0 0 5px 0;
-}
-
-.footer-socialmedia-links a {
-    text-decoration: none;
 }
 
 .footer-impressum {

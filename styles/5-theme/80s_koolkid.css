@@ -164,3 +164,6 @@ footer {
     color: var(--neonpink);
     background: var(--yellow);
 }
+.footer-impressum a {
+    color: var(--neonpink);
+}
