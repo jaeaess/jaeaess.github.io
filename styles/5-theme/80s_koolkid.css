@@ -115,6 +115,20 @@ h2 {
     padding: 5px 0 0 0;
 }
 
+/********Table********/
+/* Zebra coloured rows */
+thead {
+    background-color: var(--yellow);
+}
+tbody tr:nth-child(odd) {
+    background-color: var(--neonpink);
+    color: var(--blue);
+}
+  tbody tr:nth-child(even) {
+    background-color: var(--blue);
+    color: var(--neonpink);
+}
+
 /*****************/
 /* Styling the footer */
 /*****************/

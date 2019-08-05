@@ -1,6 +1,7 @@
 .about-content {
     display: grid;
-    grid-gap: 20px;
+    grid-template-areas:
+        "tip-left content tip-right";
     grid-template-columns: 3fr 7fr 3fr;
     justify-items: center;
 }
@@ -11,9 +12,69 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 0 0 30px 0;
 }
 
+.about-content>h1 {
+    padding: 1em 0 0 0;
+}
+
+.about-content>h2 {
+    padding: 2em 0 0 0;
+}
+
+.tip {
+    background: #FAFAFA;
+    padding: 10px;
+    grid-row: span 5;
+    align-self: start;
+  }
+
+.tip-left {
+    grid-column: tip-left;
+    text-align: right;
+    border-right: 2px solid var(--green);
+}
+
+.tip-right {
+    grid-column: tip-right;
+    border-left: 2px solid var(--green);
+}
+
+/***************/
+/* Styling Tables */
+/***************/
+.about-content table {
+    grid-column: 1 / -1;
+    display: block;
+    table-layout: fixed;
+    text-align: left;
+}
+thead th {
+    letter-spacing: 2px;
+}
+th, td {
+    padding: 10px;
+}
+.training thead th:nth-child(1) {
+    width: 10%;
+}
+.training thead th:nth-child(2) {
+    width: 40%;
+}
+.training thead th:nth-child(3) {
+    width: 20%;
+}
+.training thead th:nth-child(4) {
+    width: 30%;
+}
+.press thead th:nth-child(1) {
+    width: 80%;
+}
+.press thead th:nth-child(2) {
+    width: 20%;
+}
+
+/* Styling portrait picture */
 .myportray {
     display: flex;
     flex-direction: column;
@@ -21,8 +82,21 @@
     width: 15rem;
     height: 100%;
 }
-
 .myportray img {
     display: block;
-    width: 100%;
+    margin: 2em 0 0 0;
+    border-left: 4px solid purple;
+    border-bottom: 4px solid var(--purple);
+    border-top: 4px solid var(--green);
+    border-right: 4px solid green;
+}
+
+/* Styling Trial and Theresa logo in an 80s style */
+.tandtlogo {
+    background: var(--black);
+    padding: 0.5em 0;
+    border-left: 4px solid purple;
+    border-bottom: 4px solid var(--purple);
+    border-top: 4px solid var(--green);
+    border-right: 4px solid green;
 }
