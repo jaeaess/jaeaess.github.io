@@ -1,37 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <!-- HEAD - Metadata about the Page itself, not displayed -->
-  <head>
-    <meta charset="utf-8">
-  	<!-- Browser’s tab -->
-    <title> Jaeaess | Art Work </title>
-    <link rel="icon" href="assets/favicon.ico">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="cssfiles/style-nav.css">
-  </head>
-  <!-- BODY - The Page, displayed -->
-  <body>
-    <header>
-      <a href="./index.html" title="Welcome" class="logo"><img src="assets/logo_jaeaess_glitch.png" alt="Logo of the VJ Jääß (Jess de Jesus)" style="width:42px;height:42px"></a>
-      <nav>
-        <a href="./index.html" title="Welcome" class="welcome">Welcome</a>
-        <a href="./about.html" title="About" class="about">About</a>
-        <a href="./artwork.html" title="Art Work" class="artwork active">Art Work</a>
-        <a href="./events.html" title="Events" class="events">Events</a>
-       </nav>
-    </header>
-  	<h1>Art Work</h1>
-      <section>
-        <h2>Live A/V Performances</h2>
-        <p>To be published soon.</p>
-      </section>
-      <section>
-        <h2>Touch Table Interactive game</h2>
-        <p>To be published soon.</p>
-      </section>
-    <footer>
-      <a href="https://www.instagram.com/jaeaess/" target="_blank">Instagram</a>
-      <p>&copy; 2019 Jääß</p>
-    </footer>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <!-- Browser’s tab -->
+  <title> Jaeaess | Art Work </title>
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<!-- Scripts -->
+<script src="scripts/includeHTML.js"></script>
+
+<!-- BODY - The Page, displayed -->
+<body>
+
+  <!-- Header -->
+  <div w3-include-html="htmls/header.html"></div>
+
+  <div class="wrapper">
+
+    <!-- Middle -->
+    <section class="middle">
+
+      <div class="artwork-content">
+
+        <h1>Art Work</h1>
+
+        <section>
+          <h2>Live A/V Performances</h2>
+          <p>To be published soon.</p>
+        </section>
+
+        <section>
+          <h2>Touch Table Interactive Game</h2>
+          <p>To be published soon.</p>
+        </section>
+
+      </div>
+
+    </section>
+
+    <!-- Footer -->
+    <div w3-include-html="htmls/footer.html"></div>
+
+  </div>
+
+  <script>
+    includeHTML();
+  </script>
+
+</body>
+
 </html>
